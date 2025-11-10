@@ -1,0 +1,65 @@
+/* Reset and base style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #8B008B;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Main content box */
+.container {
+  background-color: #ADFF2F00BFFF;
+  border: 5px double #FF1493;
+  border-radius: 15px;
+  padding: 30px 20px;
+  width: 90%;
+  max-width: 600px; /* perfect size for GitHub preview */
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h2 {
+  margin-bottom: 10px;
+}
+
+.html-heading {
+  color: #00BFFF; /* cyan for HTML */
+}
+
+.css-heading {
+  color: #9932cc; /* purple for CSS */
+}
+
+/* Paragraphs and Links */
+p {
+  margin: 20px 0;
+  line-height: 1.6;
+}
+
+a {
+  color: #008000;
+  text-decoration: underline;
+  font-size: 16px;
+  word-break: break-word;
+}
+
+a:hover {
+  color: #ff4500; /* orange hover color */
+}
+
+/* Responsive adjustments */
+@media (max-width: 500px) {
+  .container {
+    padding: 20px 15px;
+    font-size: 15px;
+  }
+}
